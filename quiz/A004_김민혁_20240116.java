@@ -3,7 +3,7 @@ package quiz;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class A004 {
+public class A004_김민혁_20240116 {
 
     class Solution {
         public int[] solution(int[] arr, int divisor) {

@@ -2,7 +2,7 @@ package quiz;
 
 
 
-public class A003 {
+public class A003_김민혁_20240116 {
     class Solution {
         public int[] plusOne(int[] digits) {
 

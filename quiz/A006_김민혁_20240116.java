@@ -1,6 +1,6 @@
 package quiz;
 
-public class A006 {
+public class A006_김민혁_20240116 {
     class Solution {
         boolean solution(String s) {
             boolean answer = true;

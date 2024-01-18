@@ -2,7 +2,7 @@ package quiz;
 
 import java.util.Arrays;
 
-public class A001 {
+public class A001_김민혁_20240116 {
     class Solution {
 
 //  1. 받은 배열들 오름차순 정렬
