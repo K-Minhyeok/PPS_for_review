@@ -4,7 +4,7 @@ import java.util.*;
 
 import static java.util.Collections.reverseOrder;
 
-public class Main {
+public class A018_김민혁_20240122 {
     public static void main(String[] args) {
 
         int total=0;
