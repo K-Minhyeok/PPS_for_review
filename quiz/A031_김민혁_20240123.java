@@ -1,7 +1,9 @@
 package quiz;
 
 import java.util.*;
-public class Main {
+
+public class A031_김민혁_20240123 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -17,11 +19,7 @@ public class Main {
             result *= arrA[i];
         }
 
-        System.out.println(result-1);
-
-
-
-
-
+        System.out.println(result - 1);
     }
+
 }
