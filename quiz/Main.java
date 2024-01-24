@@ -1,24 +1,51 @@
 package quiz;
 
 import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         String oneLine = sc.nextLine();
-        char[] beforeConv = oneLine.toCharArray();
-        char[] afterConv = new char[beforeConv.length];
-        for(int i =0; i<oneLine.length();i++){
-            byte invert = (byte)beforeConv[i];
-            if(invert<68){
-                invert+=23;
-            }else {
-                invert -= 3;
+        int time = 0;
+
+        for (int i = 0; i < oneLine.length(); i++) {
+            char check = oneLine.charAt(i);
+
+            if (check == 'A' || check == 'B' || check == 'C') {
+                time += 3;
+
+            } else if (check == 'D' || check == 'E' || check == 'F') {
+                time += 4;
+
+
+            } else if (check == 'G' || check == 'H' || check == 'I') {
+                time += 5;
+
+
+            } else if (check == 'J' || check == 'K' || check == 'L') {
+                time += 6;
+
+
+            } else if (check == 'M' || check == 'N' || check == 'O') {
+                time += 7;
+
+
+            } else if (check == 'P' || check == 'Q' || check == 'R' || check == 'S') {
+                time += 8;
+
+
+            } else if (check == 'T' || check == 'U' || check == 'V') {
+                time += 9;
+
+
+            } else if (check == 'W' || check == 'X' || check == 'Y' || check == 'Z') {
+                time += 10;
+
+
             }
-            afterConv[i] = (char)invert;
-            System.out.print(afterConv[i]);
+
         }
-
-
+        System.out.println(time);
     }
 }
