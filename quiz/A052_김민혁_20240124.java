@@ -1,14 +1,13 @@
 package quiz;
 
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
+public class A052_김민혁_20240124 {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num=sc.nextInt();
 
-
-        for (int j = 0; j < num; j++) {
+        for (int j = 0; j < 5; j++) {
+            Scanner sc = new Scanner(System.in);
             String oneLine = sc.nextLine();
             char[] beforeConv = oneLine.toCharArray();
             int sum = 0;
@@ -25,8 +24,7 @@ public class Main {
                 }
                 sum += plus;
             }
-            System.out.println(sum);
-        }
 
+        }
     }
 }
