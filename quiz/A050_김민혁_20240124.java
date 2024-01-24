@@ -1,7 +1,9 @@
 package quiz;
 
-import java.util.*;
-public class Main {
+import java.util.Scanner;
+
+public class A050_김민혁_20240124 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -10,11 +12,7 @@ public class Main {
         char[] afterConv = new char[beforeConv.length];
         for(int i =0; i<oneLine.length();i++){
             byte invert = (byte)beforeConv[i];
-            if(invert<68){
-                invert+=23;
-            }else {
-                invert -= 3;
-            }
+            invert += 3;
             afterConv[i] = (char)invert;
             System.out.print(afterConv[i]);
         }
