@@ -2,7 +2,7 @@ package quiz;
 
 import java.util.*;
 
-public class Main {
+public class A083_김민혁_20240125 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,11 +15,12 @@ public class Main {
         }
 
         List<Integer> proc2 = new ArrayList<>(proc);
-        for (int i=0; i<proc.size();i++){
+
+        // Add this line to sort the list
+        Collections.sort(proc2);
+
+        for (int i=0; i<proc2.size();i++){
             System.out.print(proc2.get(i)+" ");
         }
-
     }
 }
-
-
