@@ -2,7 +2,7 @@ package quiz;
 
 import java.util.*;
 
-public class A053_김민혁_20240124 {
+public class A065_김민혁_20240124 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
