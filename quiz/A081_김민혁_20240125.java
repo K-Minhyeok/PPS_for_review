@@ -2,7 +2,7 @@ package quiz;
 
 import java.util.*;
 
-public class Main {
+public class A081_김민혁_20240125 {
 
     public static void main(String[] args) {
         int i, j, count;
