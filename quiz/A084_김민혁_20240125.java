@@ -1,9 +1,11 @@
 package quiz;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Main {
-     public static void main(String[] args) {
+public class A084_김민혁_20240125 {
+
+        public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             String in = scanner.nextLine();
             int size = in.length();
@@ -20,3 +22,4 @@ public class Main {
             }
         }
     }
+
