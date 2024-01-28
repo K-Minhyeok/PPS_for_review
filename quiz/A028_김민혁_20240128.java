@@ -1,8 +1,10 @@
 package quiz;
+
 import java.util.Scanner;
 import java.math.BigInteger;
 
-public class Main {
+public class A028_김민혁_20240128 {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         BigInteger firstIn = new BigInteger(in.next());
@@ -11,3 +13,4 @@ public class Main {
         System.out.println(firstIn.add(secondIn));
     }
 }
+
