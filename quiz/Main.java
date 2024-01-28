@@ -4,19 +4,26 @@ import java.util.*;
 
 public class Main {
      public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            String in = scanner.nextLine();
-            int size = in.length();
-            String[] proc = new String[size];
+         Scanner in = new Scanner(System.in);
 
-            for(int i=0; i<size; i++) {
-                proc[i] = in.substring(i, size);
-            }
+         int num1 = in.nextInt();
+         int num2 = in.nextInt();
+         int num3 = in.nextInt();
 
-            Arrays.sort(proc);
+         int result = num1*num2*num3;
 
-            for (String str : proc) {
-                System.out.println(str);
-            }
-        }
-    }
+         String str = Integer.toString(result);
+
+
+         for (int i = 0; i < 10; i++) {
+             int count = 0;
+             for (int j = 0; j < str.length(); j++) {
+                 if ((str.charAt(j) - '0') == i) {
+                     count++;
+                 }
+             }
+             System.out.println(count);
+         }
+
+     }
+}
