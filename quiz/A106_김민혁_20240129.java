@@ -1,11 +1,10 @@
 package quiz;
+
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-import java.math.BigInteger;
 
-public class Main {
+public class A106_김민혁_20240129 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,4 +31,3 @@ public class Main {
         }
     }
 }
-
