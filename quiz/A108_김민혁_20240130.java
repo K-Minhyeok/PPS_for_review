@@ -1,11 +1,8 @@
 package quiz;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
-import java.math.BigInteger;
 
-public class Main {
+import java.util.Scanner;
+
+public class A108_김민혁_20240130 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -27,11 +24,11 @@ public class Main {
             String resu = Integer.toString(result);
 
             for (int j=0 ; j < origin.length(); j++){
-            if(origin.charAt(j)==resu.charAt(origin.length()-j-1)){
+                if(origin.charAt(j)==resu.charAt(origin.length()-j-1)){
 
-            }else{
-                symmetric=false;
-            }
+                }else{
+                    symmetric=false;
+                }
 
             }
             if(symmetric){
