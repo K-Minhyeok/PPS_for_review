@@ -1,0 +1,12 @@
+package quiz;
+
+public class A184_김민혁_20240206 {
+
+    public static void main(String[] args) {
+        System.out.println("|\\_/|");
+        System.out.println("|q p|   /}");
+        System.out.println("( 0 )\"\"\"\\");
+        System.out.println("|\"^\"`    |");
+        System.out.println("||_/=\\\\__|");
+    }
+}
