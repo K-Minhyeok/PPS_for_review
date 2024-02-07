@@ -20,7 +20,7 @@ public class A186_김민혁_20240207 {
             } else {
                 System.out.println("F");
             }
-            sc.close();
+
         }
     }
 }
